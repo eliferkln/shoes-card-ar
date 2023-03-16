@@ -9,6 +9,7 @@
   flex-wrap: wrap;
 }
 .navbar__logo {
+  margin-left: 25px;
   display: flex;
   align-items: center;
   justify-content: center;

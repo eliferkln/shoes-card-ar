@@ -6,11 +6,12 @@
   background-color: rgb(60, 59, 61);
   border-top-left-radius: 35px;
   border-top-right-radius: 35px;
+  flex-wrap: wrap;
 }
 .navbar__logo {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
 }
 .navbar__logo h2 {
   color: white;
@@ -23,7 +24,7 @@
   align-items: center;
   list-style: none;
   justify-content: space-between;
-  width: 100%;
+  flex-wrap: wrap;
 }
 .navbar__menu ul li:nth-child(1) {
   color: white;
@@ -58,6 +59,7 @@
 }
 .navbar__icon {
   margin-right: 25px;
+  flex-wrap: wrap;
 }
 .navbar__icon ul {
   display: flex;

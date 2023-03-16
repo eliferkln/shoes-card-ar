@@ -51,23 +51,14 @@ function index() {
         style={{
           display: "flex",
           alignItems: "center",
-
-          width: "36em",
-          height: "36em",
+          width: "20em",
+          height: "20em",
           backgroundColor: "transparent",
           margin: "auto",
         }}
       >
         <div className="poster" slot="poster">
           <img className="pre-prompt" src="/glb/prompt.svg" />
-        </div>
-
-        {/* <div className="progress-bar" slot="progress-bar">
-            <div className="update-bar"></div>
-          </div> */}
-
-        <div slot="ar-button" className="ar-button">
-          View in your space
         </div>
       </model-viewer>
     </>

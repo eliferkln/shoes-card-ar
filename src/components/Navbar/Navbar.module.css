@@ -25,7 +25,28 @@
   justify-content: space-between;
   width: 100%;
 }
-.navbar__menu ul li {
+.navbar__menu ul li:nth-child(1) {
+  color: white;
+  font-size: 24px;
+  margin: 10px;
+  font-weight: 400px;
+  font-family: "Nike Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.navbar__menu ul li:nth-child(2) {
+  color: white;
+  font-size: 24px;
+  margin: 10px;
+  font-weight: 400px;
+  font-family: "Nike Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.navbar__menu ul li:nth-child(3) {
+  color: rgb(200, 143, 221);
+  font-size: 24px;
+  margin: 10px;
+  font-weight: 400px;
+  font-family: "Nike Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.navbar__menu ul li:nth-child(4) {
   color: white;
   font-size: 24px;
   margin: 10px;

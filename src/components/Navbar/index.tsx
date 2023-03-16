@@ -3,8 +3,12 @@ import styles from "./Navbar.module.css";
 import { AiOutlineSearch, AiOutlineShoppingCart } from "react-icons/ai";
 import { BiMessage } from "react-icons/bi";
 import { CiShop } from "react-icons/ci";
-
-function index() {
+import { IProps } from "./IProps";
+const index: React.FC<IProps> = ({ setMenuComponent }) => {
+  const ComponentName = (name: string) => {
+    setMenuComponent(name);
+    console.log("state çalıştı", name);
+  };
   return (
     <div className={styles["navbar"]}>
       <div className={styles["navbar__logo"]}>
@@ -13,10 +17,10 @@ function index() {
 
       <div className={styles["navbar__menu"]}>
         <ul>
-          <li>home</li>
-          <li>men</li>
-          <li>women</li>
-          <li>kids</li>
+          <li onClick={() => ComponentName("home")}>home</li>
+          <li onClick={() => ComponentName("men")}>men</li>
+          <li onClick={() => ComponentName("women")}>women</li>
+          <li onClick={() => ComponentName("kids")}>kids</li>
         </ul>
       </div>
       <div className={styles["navbar__icon"]}>
@@ -37,6 +41,6 @@ function index() {
       </div>
     </div>
   );
-}
+};
 
 export default index;

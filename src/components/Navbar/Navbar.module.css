@@ -41,7 +41,7 @@
   font-family: "Nike Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .navbar__menu ul li:nth-child(3) {
-  color: rgb(200, 143, 221);
+  color: white;
   font-size: 24px;
   margin: 10px;
   font-weight: 400px;
@@ -55,6 +55,12 @@
   font-family: "Nike Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .navbar__menu ul li:hover {
+  color: rgb(200, 143, 221);
+}
+.active {
+  color: rgb(200, 143, 221);
+}
+.navbar__menu ul li:active {
   color: rgb(200, 143, 221);
 }
 .navbar__icon {

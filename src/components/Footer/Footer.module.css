@@ -1,0 +1,20 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+.footer h6 {
+  font-size: 16px;
+  font-weight: 400px;
+  color: rgb(69, 70, 72);
+}
+.footer h5 {
+  font-size: 16px;
+  font-weight: 400px;
+  color: rgb(30, 31, 31);
+  margin: 4px;
+}
+.footer a {
+  text-decoration: none;
+}

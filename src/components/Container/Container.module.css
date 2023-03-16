@@ -1,7 +1,12 @@
 .container {
   width: 100%;
   height: 100vh;
+  background-color: rgb(176, 170, 197);
+}
+.container__design {
   display: flex;
   align-items: center;
-  background-color: rgb(176, 170, 197);
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
 }

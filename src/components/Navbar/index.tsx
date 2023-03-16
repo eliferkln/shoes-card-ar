@@ -23,7 +23,7 @@ const index: React.FC<IProps> = ({ setMenuComponent }) => {
           <li onClick={() => ComponentName("nike")}>nike</li>
         </ul>
       </div>
-      <div className={styles["navbar__icon"]}>
+      {/* <div className={styles["navbar__icon"]}>
         <ul>
           <li>
             <AiOutlineSearch />
@@ -38,7 +38,7 @@ const index: React.FC<IProps> = ({ setMenuComponent }) => {
             <CiShop />
           </li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 };

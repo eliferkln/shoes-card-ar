@@ -19,6 +19,9 @@
   font-family: "Nike Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 25px;
 }
+.navbar__menu {
+  margin-right: 25px;
+}
 .navbar__menu ul {
   display: flex;
   align-items: center;

@@ -1,0 +1,56 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgb(60, 59, 61);
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+}
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.navbar__logo h2 {
+  color: white;
+  font-size: 36px;
+  font-family: "Nike Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 25px;
+}
+.navbar__menu ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+  width: 100%;
+}
+.navbar__menu ul li {
+  color: white;
+  font-size: 24px;
+  margin: 10px;
+  font-weight: 400px;
+  font-family: "Nike Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.navbar__menu ul li:hover {
+  color: rgb(200, 143, 221);
+}
+.navbar__icon {
+  margin-right: 25px;
+}
+.navbar__icon ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+}
+.navbar__icon ul li {
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+  font-weight: 600px;
+  font-family: "Nike Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.navbar__icon ul li:hover {
+  color: rgb(200, 143, 221);
+}

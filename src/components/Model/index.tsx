@@ -1,5 +1,6 @@
 import React from "react";
 import "@google/model-viewer/lib/model-viewer";
+import styles from "./Model.module.css";
 
 declare global {
   namespace JSX {
@@ -32,6 +33,7 @@ function index() {
   const iosSrc = "/glb/nike.usdz";
   return (
     <>
+      <div className={styles["model"]}></div>
       <model-viewer
         id="first"
         src="/glb/nike.glb"

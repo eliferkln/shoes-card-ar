@@ -1,8 +1,15 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+}
 .button ul {
   display: flex;
   align-items: center;
-  list-style: none;
   justify-content: center;
+  list-style: none;
   flex-wrap: wrap;
 }
 .button ul li:nth-child(1) {

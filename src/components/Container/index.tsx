@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styles from "./Container.module.css";
 import Card from "../Card";
 import CardAdidas from "../CardAdidas";
+import CardNb from "../CardNb";
 import Footer from "../Footer";
 import Button from "../Button";
 
@@ -13,7 +14,7 @@ function Index() {
         {!showCard && <Card />}
         {showCard === "nike" && <Card />}
         {showCard === "adidas" && <CardAdidas />}
-        {showCard === "nb" && <CardAdidas />}
+        {showCard === "nb" && <CardNb />}
         <Button setShowCard={setShowCard} />
         <Footer />
       </div>

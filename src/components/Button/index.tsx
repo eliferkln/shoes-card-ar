@@ -14,6 +14,7 @@ const index: React.FC<IProps> = ({ setShowCard }) => {
         <li onClick={() => ComponentName("adidas")}>Adidas</li>
         <li onClick={() => ComponentName("nb")}>New Balance</li>
       </ul>
+      <div className={styles["button__container"]}></div>
     </div>
   );
 };

@@ -5,6 +5,9 @@
   width: 100%;
   margin: auto;
 }
+.button__container {
+  margin-right: 55px;
+}
 .button ul {
   display: flex;
   align-items: center;

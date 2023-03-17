@@ -53,8 +53,8 @@ function index() {
         style={{
           display: "flex",
           alignItems: "center",
-          width: "20em",
-          height: "20em",
+          width: "15em",
+          height: "15em",
           backgroundColor: "transparent",
           margin: " auto",
         }}

@@ -1,0 +1,70 @@
+.button ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.button ul li:nth-child(1) {
+  width: 120px;
+  height: 26px;
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    rgba(236, 159, 159, 1) 2%,
+    rgba(249, 5, 10, 1) 100%
+  );
+  border-radius: 10px;
+  padding: 8px;
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+  font-weight: 400;
+  font-family: "Nike Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.button ul li:nth-child(2) {
+  width: 120px;
+  height: 26px;
+  text-align: center;
+  background: rgb(175, 213, 231);
+  background: linear-gradient(
+    90deg,
+    rgba(175, 213, 231, 1) 2%,
+    rgba(60, 180, 233, 1) 100%
+  );
+  border-radius: 10px;
+  padding: 8px;
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+  font-weight: 400;
+  font-family: "Nike Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.button ul li:nth-child(3) {
+  width: 120px;
+  height: 26px;
+  text-align: center;
+  background: rgb(10, 165, 245);
+  background: linear-gradient(
+    90deg,
+    rgba(10, 165, 245, 1) 0%,
+    rgba(238, 1, 54, 1) 100%
+  );
+  border-radius: 10px;
+  padding: 8px;
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+  font-weight: 400;
+  font-family: "Nike Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.button ul li:hover {
+  color: rgb(98, 93, 100);
+}
+.active {
+  color: rgb(95, 93, 96);
+}
+.button ul li:active {
+  color: rgb(117, 111, 120);
+}

@@ -1,9 +1,8 @@
 import React from "react";
 import styles from "./Navbar.module.css";
-import { AiOutlineSearch, AiOutlineShoppingCart } from "react-icons/ai";
-import { BiMessage } from "react-icons/bi";
-import { CiShop } from "react-icons/ci";
 import { IProps } from "./IProps";
+import { GrNext } from "react-icons/gr";
+
 const index: React.FC<IProps> = ({ setMenuComponent }) => {
   const ComponentName = (name: string) => {
     setMenuComponent(name);
@@ -21,24 +20,11 @@ const index: React.FC<IProps> = ({ setMenuComponent }) => {
           <li onClick={() => ComponentName("men")}>men</li>
           <li onClick={() => ComponentName("women")}>women</li>
           <li onClick={() => ComponentName("nike")}>nike</li>
+          {/* <li>
+            <GrNext />
+          </li> */}
         </ul>
       </div>
-      {/* <div className={styles["navbar__icon"]}>
-        <ul>
-          <li>
-            <AiOutlineSearch />
-          </li>
-          <li>
-            <BiMessage />
-          </li>
-          <li>
-            <AiOutlineShoppingCart />
-          </li>
-          <li>
-            <CiShop />
-          </li>
-        </ul>
-      </div> */}
     </div>
   );
 };

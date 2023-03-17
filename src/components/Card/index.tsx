@@ -8,6 +8,7 @@ import React, { useState } from "react";
 
 function Index() {
   const [menuComponent, setMenuComponent] = useState<string>("");
+
   console.log("boşş", menuComponent);
   return (
     <div className={styles["card"]}>

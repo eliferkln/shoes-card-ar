@@ -1,0 +1,95 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgb(60, 59, 61);
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  flex-wrap: wrap;
+}
+.navbar__logo {
+  margin-left: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar__logo h2 {
+  color: white;
+  font-size: 36px;
+  font-family: "Nike Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 25px;
+}
+.navbar__menu {
+  margin-right: 25px;
+}
+.navbar__menu ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.navbar__menu ul li:nth-child(1) {
+  color: white;
+  font-size: 24px;
+  margin: 10px;
+  font-weight: 400;
+  font-family: "Nike Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.navbar__menu ul li:nth-child(2) {
+  color: white;
+  font-size: 24px;
+  margin: 10px;
+  font-weight: 400;
+  font-family: "Nike Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.navbar__menu ul li:nth-child(3) {
+  color: white;
+  font-size: 24px;
+  margin: 10px;
+  font-weight: 400;
+  font-family: "Nike Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.navbar__menu ul li:nth-child(4) {
+  color: white;
+  font-size: 24px;
+  margin: 10px;
+  font-weight: 400;
+  font-family: "Nike Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.navbar__menu ul li:nth-child(5) {
+  font-size: 22px;
+  margin: 10px 20px;
+  font-weight: 700;
+  font-family: "Nike Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.navbar__menu ul li:hover {
+  color: rgb(200, 143, 221);
+}
+.active {
+  color: rgb(200, 143, 221);
+}
+.navbar__menu ul li:active {
+  color: rgb(200, 143, 221);
+}
+.navbar__icon {
+  margin-right: 25px;
+  flex-wrap: wrap;
+}
+.navbar__icon ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+}
+.navbar__icon ul li {
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+  font-weight: 600px;
+  font-family: "Nike Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.navbar__icon ul li:hover {
+  color: rgb(200, 143, 221);
+}

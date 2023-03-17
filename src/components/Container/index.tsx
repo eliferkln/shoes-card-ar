@@ -1,16 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./Container.module.css";
 import Card from "../Card";
+import CardAdidas from "../CardAdidas";
 import Footer from "../Footer";
-function index() {
+import Button from "../Button";
+
+function Index() {
+  const [showCard, setShowCard] = useState<string>("");
   return (
     <div className={styles["container"]}>
       <div className={styles["container__design"]}>
-        <Card />
+        {!showCard && <Card />}
+        {showCard === "nike" && <Card />}
+        {showCard === "adidas" && <CardAdidas />}
+        {showCard === "nb" && <CardAdidas />}
+        <Button setShowCard={setShowCard} />
         <Footer />
       </div>
     </div>
   );
 }
 
-export default index;
+export default Index;

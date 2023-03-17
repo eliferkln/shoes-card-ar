@@ -4,7 +4,8 @@
   align-items: center;
   justify-content: center;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  background-color: rgb(69, 70, 72);
+  box-shadow: transparent;
+
   max-height: 600px;
   max-width: 800px;
   width: 100%;

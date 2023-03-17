@@ -1,7 +1,10 @@
 .container {
   width: 100%;
   height: 100vh;
-  background-color: rgb(176, 170, 197);
+  background: url("../../assets//svg/css-gradient-examples-ba7f335a.svg");
+  background-color: rgb(205, 216, 216);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .container__design {
   display: flex;
@@ -9,4 +12,12 @@
   flex-direction: column;
   width: 100%;
   height: 100vh;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .container {
+    background-position-y: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 800px;
+  }
 }

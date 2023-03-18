@@ -42,13 +42,13 @@ function index() {
         environment-image="neutral"
         exposure="1.0"
         interaction-prompt-threshold="0"
-        shadow-intensity="0"
+        shadow-intensity="1"
         ar
         autoplay
         ar-modes="webxr scene-viewer quick-look"
         auto-rotate
         camera-controls
-        camera-orbit="0deg 90deg 0deg 8.37364m"
+        camera-orbit="90deg 0deg 360deg 8.37364m"
         alt="3D model"
         style={{
           display: "flex",

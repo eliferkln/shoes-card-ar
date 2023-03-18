@@ -16,10 +16,10 @@ const index: React.FC<IProps> = ({ setMenuComponent }) => {
 
       <div className={styles["navbar__menu"]}>
         <ul>
-          <li onClick={() => ComponentName("home")}>home</li>
-          <li onClick={() => ComponentName("men")}>men</li>
-          <li onClick={() => ComponentName("women")}>women</li>
-          <li onClick={() => ComponentName("nike")}>nike</li>
+          <li onClick={() => ComponentName("home")}>Home</li>
+          <li onClick={() => ComponentName("men")}>Men</li>
+          <li onClick={() => ComponentName("women")}>Women</li>
+          <li onClick={() => ComponentName("nike")}>Nike</li>
           {/* <li>
             <GrNext />
           </li> */}

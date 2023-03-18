@@ -16,9 +16,9 @@ const index: React.FC<IProps> = ({ setMenuComponentAdidas }) => {
 
       <div className={styles["navbar__menu"]}>
         <ul>
-          <li onClick={() => ComponentName("adidas")}>adidas</li>
-          <li onClick={() => ComponentName("men")}>men</li>
-          <li onClick={() => ComponentName("women")}>women</li>
+          <li onClick={() => ComponentName("adidas")}>Adidas</li>
+          <li onClick={() => ComponentName("men")}>Men</li>
+          <li onClick={() => ComponentName("women")}>Women</li>
 
           {/* <li>
             <GrNext />

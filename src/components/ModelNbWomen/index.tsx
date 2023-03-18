@@ -34,35 +34,36 @@ function index() {
   return (
     <>
       <div className={styles["model"]}></div>
-      <model-viewer
-        id="first"
-        src="/glb/nb/used_new_balance_574_classic______free.glb"
-        ios-src={iosSrc}
-        seamless-poster
-        environment-image="neutral"
-        exposure="1.0"
-        interaction-prompt-threshold="0"
-        shadow-intensity="1"
-        ar
-        autoplay
-        ar-modes="webxr scene-viewer quick-look"
-        auto-rotate
-        camera-controls
-        camera-orbit="0deg 90deg 0deg 8.37364m"
-        alt="3D model"
-        style={{
-          display: "flex",
-          alignItems: "center",
-          width: "15em",
-          height: "15em",
-          backgroundColor: "transparent",
-          margin: " auto",
-        }}
-      >
-        <div className="poster" slot="poster">
-          <img className="pre-prompt" src="/glb/prompt.svg" />
-        </div>
-      </model-viewer>
+      <div className={styles["model__view"]}>
+        {" "}
+        <model-viewer
+          id="first"
+          src="/glb/nb/used_new_balance_574_classic______free.glb"
+          ios-src={iosSrc}
+          seamless-poster
+          environment-image="neutral"
+          exposure="1.0"
+          interaction-prompt-threshold="0"
+          shadow-intensity="1"
+          ar
+          autoplay
+          ar-modes="webxr scene-viewer quick-look"
+          auto-rotate
+          camera-controls
+          camera-orbit="0deg 90deg 0deg 8.37364m"
+          alt="3D model"
+          style={{
+            display: "flex",
+            alignItems: "center",
+            backgroundColor: "transparent",
+            margin: " auto",
+          }}
+        >
+          <div className="poster" slot="poster">
+            <img className="pre-prompt" src="/glb/prompt.svg" />
+          </div>
+        </model-viewer>
+      </div>
     </>
   );
 }

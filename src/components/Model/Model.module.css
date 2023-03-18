@@ -1,3 +1,13 @@
 .model {
   margin-top: 35px;
 }
+.model__view model-viewer {
+  width: 20em;
+  height: 20em;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .model__view model-viewer {
+    width: 15em;
+    height: 15em;
+  }
+}
